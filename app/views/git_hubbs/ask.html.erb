@@ -1,2 +1,8 @@
-<h1>GitHubbs#ask</h1>
-<p>Find me in app/views/git_hubbs/ask.html.erb</p>
+<h1>Please Enter the User Name</h1>
+<!-- <p>Find me in app/views/git_hubbs/ask.html.erb</p> -->
+
+
+<%= form_tag git_hubbs_show_path do%>
+  <%= text_field_tag :UserName %>
+  <%= button_tag "Get User Name"%>
+<% end %>
