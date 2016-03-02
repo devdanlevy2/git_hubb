@@ -1,4 +1,4 @@
-class UserProfile 
+class UserProfile
 
   def initialize
     @user_name = user_name,
